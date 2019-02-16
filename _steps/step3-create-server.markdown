@@ -85,10 +85,10 @@ Add the last three lines to `server.js`:
 
 ```javascript
 var express = require('express');
-var app = express();
+var server = express();
 
-app.listen(8080, function () {
-  console.log('Server has started listening on port 8080.');
+server.listen(3000, function () {
+  console.log('Server has started listening on port 3000.');
 });
 ```
 
