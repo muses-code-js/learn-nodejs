@@ -3,6 +3,7 @@ layout: step
 number: 8
 title: Adding the Recipe Page
 permalink: step8/
+draft: true
 ---
 
 

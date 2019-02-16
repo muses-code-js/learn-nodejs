@@ -3,6 +3,7 @@ layout: step
 number: 7
 title: Partials
 permalink: step7/
+draft: true
 ---
 
 mkdir views/partials

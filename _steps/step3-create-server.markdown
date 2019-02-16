@@ -3,6 +3,7 @@ layout: step
 number: 3
 title: Create Server
 permalink: step3/
+draft: true
 ---
 
 ```js

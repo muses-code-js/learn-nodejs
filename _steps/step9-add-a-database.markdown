@@ -3,6 +3,7 @@ layout: step
 number: 9
 title: Adding a Database
 permalink: step9/
+draft: true
 ---
 
 ```js

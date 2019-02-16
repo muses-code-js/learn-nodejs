@@ -3,6 +3,7 @@ layout: step
 number: 6
 title: Templates
 permalink: step6/
+draft: true
 ---
 
 ```
