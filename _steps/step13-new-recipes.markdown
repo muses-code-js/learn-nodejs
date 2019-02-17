@@ -3,7 +3,7 @@ layout: step
 number: 13
 title: Adding a new recipe
 permalink: step13/
-draft: true
+status: write
 ---
 
 `views/partials/admin/recipe_form.ejs`

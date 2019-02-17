@@ -3,7 +3,7 @@ layout: step
 number: 5
 title: Creating Routes
 permalink: step5/
-draft: true
+status: draft
 ---
 
 Ok so our server is running and listening to requests but it doesn't know what to do when it receives one yet.

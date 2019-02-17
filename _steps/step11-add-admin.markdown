@@ -3,7 +3,7 @@ layout: step
 number: 11
 title: Adding Admin features
 permalink: step11/
-draft: true
+status: write
 ---
 
 ```js
