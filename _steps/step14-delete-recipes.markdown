@@ -3,7 +3,7 @@ layout: step
 number: 14
 title: Delete Recipes
 permalink: step14/
-draft: true
+status: write
 ---
 
 ```js

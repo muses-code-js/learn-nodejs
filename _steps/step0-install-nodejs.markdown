@@ -3,7 +3,7 @@ layout: step
 number: 0
 title: Installing Node.js
 permalink: step0/
-draft: true
+status: draft
 ---
 
 You can download the Node.js installer from <https://nodejs.org/en/download/>  

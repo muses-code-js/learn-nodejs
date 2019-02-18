@@ -5,8 +5,8 @@ layout: default
   
   <header class="post-header">
     <h2 class="post-title"> Step {{page.number}} - {{ page.title | escape }}
-        {% if page.draft %}  
-        <span id="watermark">DRAFT</span> 
+        {% if page.status %}  
+        <span id="watermark">{{ page.status }}</span> 
         {% endif %}  
     </h1>
     </header>

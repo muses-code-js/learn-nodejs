@@ -3,7 +3,7 @@ layout: step
 number: 12
 title: Editing a Recipe
 permalink: step12/
-draft: true
+status: write
 ---
 
 ```js
