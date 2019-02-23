@@ -27,7 +27,7 @@ A server "listens" for requests sent to it from clients.  Depending on the reque
 
 This idea of having server programs that respond to requests from server programs is called a **client/server architecture**.  It works because both the clients and the servers use the same format for the requests and responses.  This agreed upon format is called the **protocol**.
 
-Client/server architecture is used when you have a resource that you need multiple different users to access at the same time.  Instead of sending the resource to all the users (e.g. on a CD-ROM) you keep the resource on in one place and use a server to allow clients to access it.  There are many benefits to doing this like how easy it is to update the shared resource.
+Client/server architecture is used when you have a resource that you need multiple users to access at the same time. Instead of sending the resource to all of the users (e.g. on a CD-ROM), you can keep the resource in one place and use a server to allow clients to access it. There are many benefits to doing this, such as how easy it is to update the shared resource.
 
 The application we are creating is a **web server**.  The client is your web browser.  They use the `http` protocol to communicate.  The browser sends requests to the server using URLs to indicate what it wants from the server.
 
@@ -42,7 +42,7 @@ We will now create that file and write the code to start the server running.
 
 ### Create a server.js file
 
-Create a new file called `server.js`.  You can do this using the `File` menu in Cloud9.  Once created you will see it listed in the file view.  Double-click on it to open it in an editor.  It should be completely empty.
+Create a new file called `server.js`. You can do this using the `File` menu in your text editor. Once created you will see it listed in the file view. Double-click on it to open. It should be completely empty.
 
 ### Import the Express module
 
@@ -64,22 +64,20 @@ Add the second line of code to your `server.js` file:
 
 ```javascript
 var express = require('express');
-var app = express();
+var server = express();
 ```
 
-This new line invokes the `express()` from and stores the result in the variable `app`.
+This new line invokes `express()` and stores the result in the variable `app`.
 
 ### Start our server "listening"
 
-Now we have our server object (`app`) we can use its `listen()` function to start it listening for requests.
+Now we have our server object (`app`), we can use its `listen()` function to start listening for requests.
 
 The `listen()` function takes two arguments: a **port** number and a **callback function**.
 
-The **port number** can be thought of as a door number or apartment number.  Requests for this server will be sent "to that port". As every apartment on the same street has a different door number, every server running on the same computer must be listening on a different port.
+The **port number** can be thought of as a door number or apartment number.  Requests for this server will be sent "to that port". As every apartment on the same street has a different door number, every server running on the same computer must be listening on a different port. We will use port `3000`.
 
-Cloud9 only allows you to use port `8080`.  If you are running Node.js on your own machine you can use any port between `1023` and `65535`.  We will use port `8080`.
-
-The **callback function** is a function for the server to run immediately after it starts listening.  We are going to use it to just display a message to let us known that the server started listening.
+The **callback function** is a function for the server to run immediately after it starts listening.  We are going to use it to display a message to let us know that the server has started listening.
 
 Add the last three lines to `server.js`:
 
@@ -98,7 +96,7 @@ You've built your server, but it isn't running yet.
 
 To run a Node.js program we use the `node` program.
 
-Type the following command in the Cloud9 terminal or your local terminal in the same directory as `server.js` and press ENTER:
+Type the following command in your terminal (from the same directory as `server.js`) and press ENTER:
 
 ```
 node server.js
@@ -116,7 +114,7 @@ If you see this, congratulations! :clap: :clap: You have built yourself a server
 
 ## About console.log()
 
-Right now, your server is doing one thing: using the `console.log()` function to print the message `Server has started listening on port 8080.`
+Right now, your server is doing one thing: using the `console.log()` function to print the message `Server has started listening on port 3000.`
 
 The `console.log()` function displays messages in the terminal, also known as the console. We call these 'console' or 'log' messages, and they only appear in the terminal where your application is running - users of your app don't see them.
 
