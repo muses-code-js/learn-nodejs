@@ -67,7 +67,7 @@ var express = require('express');
 var server = express();
 ```
 
-This new line invokes `express()` and stores the result in the variable `app`.
+This new line invokes `express()` and stores the result in the variable `server`.
 
 ### Start our server "listening"
 
