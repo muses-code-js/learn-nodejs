@@ -19,7 +19,7 @@ First create a folder for our project and call it whatever you want, I called mi
 To create your new `package.json` file:
 
 1. Open your terminal
-2. Make sure you are in your new project folder.  Use the `pwd` to check which folder you are in, and `cd` to change.
+2. Make sure you are in your new project folder.  Use the `pwd` command to check which folder you are in, and the `cd` command to change folders.
 3. Run the command `npm init -y`.
 
 This command creates a new `package.json` file with default values and displays it for you.  
