@@ -71,7 +71,7 @@ This new line invokes `express()` and stores the result in the variable `server`
 
 ### Start our server "listening"
 
-Now we have our server object (`app`), we can use its `listen()` function to start listening for requests.
+Now we have our `server` object, we can use its `listen()` function to start listening for requests.
 
 The `listen()` function takes two arguments: a **port** number and a **callback function**.
 
