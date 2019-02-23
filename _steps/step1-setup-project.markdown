@@ -8,7 +8,7 @@ status: draft
 
 The first thing we do when starting a new Node.js project is create a `package.json` file.
 
-`package.json` is the configuration file used by the program `npm`, the **Node Package Manager**.  It is used it configure lots of things in your project including package dependencies, automating tasks, and how to publish it as a package.  
+`package.json` is the configuration file used by the program `npm`, the **Node Package Manager**.  It is used to configure lots of things in your project including package dependencies, automating tasks, and how to publish it as a package.  
 
 However the only thing we are going to use it for in this workshop is saving our project dependencies.
 
