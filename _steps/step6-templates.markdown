@@ -18,7 +18,7 @@ In this step, we are going to install EJS as a view engine for Express and chang
 First you need to install EJS, which you do with NPM just like you installed Express.  Stop your server running and type the following in the terminal and press enter:
 
 ```
-npm install ejs —save
+npm install ejs -—save
 ```
 
 Now that EJS is installed, we need to tell express to use EJS as the view engine.  To do that add the following code before your routes:
