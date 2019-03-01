@@ -69,7 +69,8 @@ Make sure that is saved, and lets stop and restart our server.
 
 Go to <http://localhost:3000/> and you will see our home page with the list of recipes, of which there is only one.  Click on that recipe and you will be taken to the page to that recipe and which will look like this:
 
-[INSERT SCREENSHOT]
+![Render Recipe]({{ '/assets/steps/10/render-recipe.png' | relative_url }}){:title="Render Recipe" class="img-responsive imgbox"}
+
 
 Not much to look at now because we only have the one default recipe in the database, but the core is there now.  Over the next steps we will add administration pages that will let us add, edit and remove recipes.
 

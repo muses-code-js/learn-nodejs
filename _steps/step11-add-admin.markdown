@@ -76,6 +76,7 @@ Anyway, save those changes, restart your server again and go to <http://localhos
 
  Your recipe admin page will look like this:
 
-[INSERT SCREENSHOT]
+![Admin Page]({{ '/assets/steps/11/admin-page.png' | relative_url }}){:title="Admin Page" class="img-responsive imgbox"}
+
 
 Of course none of the links in this page will work yet because we haven’t created those routes or templates.  

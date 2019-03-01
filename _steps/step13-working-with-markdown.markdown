@@ -44,7 +44,8 @@ server.get('/recipe/:id', function(request, response) {
 
 Restart our server and lets check what it looks like now:
 
-[INSERT SCREENSHOT]
+![Escaped output]({{ '/assets/steps/13/escaped-output.png' | relative_url }}){:title="Escaped output" class="img-responsive imgbox"}
+
 
 Opps, not quite right yet.  What happened then?
 
@@ -70,4 +71,4 @@ Lets update our `recipe.ejs`  to replace the `<body>` as below so we are display
 
 Refresh the recipe page and it will look much nicer now:
 
-[INSERT SCREENSHOT]
+![unescape output]({{ '/assets/steps/13/correct-output.png' | relative_url }}){:title="unescaped output" class="img-responsive imgbox"}

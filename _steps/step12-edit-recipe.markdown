@@ -164,7 +164,8 @@ Notice how after we call `updateRecipe` we don’t render a template, we use `re
 
 Ok so now you should be able to go to <http://localhost:3000/admin>, click `edit` for the Traditional Cupcakes recipe and see our editing form.
 
-[INSERT SCREENSHOT]
+![Recipe Edit Page]({{ '/assets/steps/12/edit-page.png' | relative_url }}){:title="Recipe Edit Page" class="img-responsive imgbox"}
+
 
 Try changing the name of the recipe and clicking save.  
 
@@ -210,7 +211,8 @@ Save it and check the recipe page.
 
 It is going to look like this:
 
-[INSERT SCREENSHOT]
+![Recipe raw text output]({{ '/assets/steps/12/raw-output.png' | relative_url }}){:title="Recipe raw text output" class="img-responsive imgbox"}
+
 
 And that isn’t what we want.  It’s just  all the text run together without any HTML markup.  
 

@@ -140,7 +140,8 @@ Go to <http://localhost:3000/admin> and click `Add new Recipe`.
 
 You'll see the new recipe page like this:
 
-[INSERT SCREENSHOT]
+![New recipe page]({{ '/assets/steps/14/add-new.png' | relative_url }}){:title="New recipe page" class="img-responsive imgbox"}
+
 
 Set the name to `Muffins`, and add the content from below:
 
@@ -191,4 +192,4 @@ Refer to directions at the bottom for how to modify the recipe for different typ
 
 Click save.  Now go to the homepage and you will see our new Muffin recipe.  Click it and you will be taken to the recipe page for Muffins.
 
-[INSERT SCREENSHOT]
+![New recipe]({{ '/assets/steps/14/new-recipe.png' | relative_url }}){:title="New recipe" class="img-responsive imgbox"}

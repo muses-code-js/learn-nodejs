@@ -32,11 +32,13 @@ First, you need to download the Tiny Cakes site files: [tinycakes.zip]({{ '/asse
 
 Unzip this somewhere convenient for you and you will see a folder called `tiny-cakes` with some HTML files, some CSS and images.  
 
-[INSERT SCREENSHOT]
+![Tiny Cakes files unzipped in macOS Finder]({{ '/assets/steps/4/tiny-cakes-files-unzipped.png' | relative_url }}){:title="Tiny Cakes files unzipped in macOS Finder" class="img-responsive imgbox"}
+
 
 Open up `index.html` in your browser and check the pages out.
 
-[INSERT SCREENSHOT]
+![Tiny Cakes HTML viewed in browser]({{ '/assets/steps/4/tiny-cakes-view-html.png' | relative_url }}){:title="Tiny Cakes HTML viewed in browser" class="img-responsive imgbox"}
+
 
 This is the website that we are going to recreate and enhance as a Node.js app.
 
@@ -49,7 +51,8 @@ Now we are going to copy all the Tiny Cakes files into our project.
 
 You should have something that looks like this:
 
-[INSERT FILEMANAGER SCREENSHOT]
+![Files copied to public directory]({{ '/assets/steps/4/tiny-cakes-public.png' | relative_url }}){:title="Files copied to public directory" class="img-responsive imgbox"}
+
 
 ## Tell Express about static assets
 
@@ -82,9 +85,10 @@ Changes that your make to your server code only take effect when the server star
 
 Head back to your terminal now and stop your server by pressing the `control` and `c` keys (AKA `ctrl-c`).  In the terminal `ctrl-c` tells the currently running program to stop right away.  You should see the terminal respond by displaying a prompt for you to type commands in again.
 
-[INSERT SCREENSHOT OF TERMINAL CTRL-C]
+![Stopping the server with ctrl-c]({{ '/assets/steps/4/terminal-ctrl-c.png' | relative_url }}){:title="Stopping the server with ctrl-c" class="img-responsive imgbox"}
 
-Start your server running again by typing node server.js into your terminal and pressing enter just like before.
+
+Start your server running again by typing `node server.js` into your terminal and pressing enter just like before.
 
 ## Check that it worked
 
@@ -92,7 +96,8 @@ Once you have your server running open a browser window and go to <http://localh
 
 You should see the homepage of the TinyCakes site:
 
-[INSERT SCREENSHOT]
+![Static hosted Tiny Cakes homepage]({{ '/assets/steps/4/tiny-cakes-static.png' | relative_url }}){:title="Static hosted Tiny Cakes homepage" class="img-responsive imgbox"}
+
 
 You can navigate to other pages and everything should work.  Your server is now delivering up all those pages as is.  What is happening is that for every request that your app receives Express first checks if a file exists in `public` that has the same name and path, and if it does it responds by sending that file. 
 

@@ -88,3 +88,5 @@ Now we have to tell the delete link to use this.  Find the `<a>` tag which is th
 FYI this part isn't actually NodeJS code, this Javascript runs inside of the page in the browser, not on the server.  It just makes the experience a little nicer for the user.
 
 Anyway, after saving those changes add another recipe and try to delete it.  Now a prompt will pop up when you click the button and the recipe will only get deleted if you click `OK`.
+
+![Delete Confirmation]({{ '/assets/steps/15/confirmation.png' | relative_url }}){:title="Delete Confirmation" class="img-responsive imgbox"}

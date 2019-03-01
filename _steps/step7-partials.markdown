@@ -28,7 +28,7 @@ So now `views/partials/header.ejs` should look like:
 ```html
 <header>
   <div class="container">
-    <img src="/tinycakes.png" title="Tiny Cakes!" alt="The Tiny Cakes logo, a stylized cartoon cupcake." height="48px" width="48px" />
+    <img src="tinycakes.png" title="Tiny Cakes!" alt="The Tiny Cakes logo, a stylized cartoon cupcake." height="48px" width="48px" />
     <h2>Tiny Cakes!</h2>
     <nav>
       <a href="index.html">Home</a>
@@ -47,6 +47,8 @@ Now go to `views/pages/index.ejs` and `views/pages/about.ejs` and where the `<he
 ```
 If you refresh the pages it should seem exactly the same.
 
+## Fix our breakages
+
 But here’s the thing.  Our links are still broken right?  Open up `header.ejs` and update the links as below:
 
 ```html
@@ -58,4 +60,14 @@ But here’s the thing.  Our links are still broken right?  Open up `header.ejs`
 
 Now check both the home & about pages in your browser.  The links in the header should be fixed in both pages.  So much more convenient that having to make those changes in both files.  Now imagine if you had dozens or hundreds of pages.  So much easier this way than managing each of them by hand.
 
-[INSERT fixing logo path]
+Another problem that is going to occur in future steps is that the path to the image in the header doesn't have a path.  This will break it for routes with deeper paths.
+
+To fix it change the `src` attribute of the `<img>` tag in `<header>` to add a leading `/` like this:
+
+```html
+<img src="/tinycakes.png" title="Tiny Cakes!" alt="The Tiny Cakes logo, a stylized cartoon cupcake." height="48px" width="48px" />
+```
+
+Now the image will work no matter where the partial gets included.
+
+

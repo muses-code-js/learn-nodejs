@@ -30,7 +30,8 @@ and open up <http://localhost:3000/recipe/123>
 
 You should see the text `recipe id: 123`
 
-[INSERT SCREENSHOT]
+![URL parameter sent as response]({{ '/assets/steps/8/params-send.png' | relative_url }}){:title="URL parameter sent as response" class="img-responsive imgbox"}
+
 
 Now try some different values, like <http://localhost:3000/recipe/99834> or 
 <http://localhost:3000/recipe/cheesecake>
@@ -99,7 +100,8 @@ Save this, restart your server and go to <http://localhost:3000/recipe/123> agai
 
 It should look like this:
 
-[INSERT SCREENSHOT]
+![URL parameter sent to template and rendered]({{ '/assets/steps/8/params-render.png' | relative_url }}){:title="URL parameter sent to template and rendered" class="img-responsive imgbox"}
+
 
 Now instead of just instructing Express to render the template, we are also giving it data for the template to display.
 

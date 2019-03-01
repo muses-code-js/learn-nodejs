@@ -123,7 +123,8 @@ Anyway... make sure you have saved all the changes to `recipesDB.js`, `server.js
 
 It should look like this:
 
-[INSERT SCREENSHOT]
+![Updated homepage]({{ '/assets/steps/9/updated-homepage.png' | relative_url }}){:title="Updated homepage" class="img-responsive imgbox"}
+
 
 Now instead of links to specific files, the homepage has links to the URLs that match all the recipe ids that we have in our database.  Right now we only have one.
 

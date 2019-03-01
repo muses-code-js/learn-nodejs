@@ -44,7 +44,8 @@ Now open a web browser and go to <http://localhost:3000/hello>
 
 You should see the text displayed: hello there
 
-[INSERT SCREENSHOT]
+![Route output]({{ '/assets/steps/5/route-output.png' | relative_url }}){:title="Route output" class="img-responsive imgbox"}
+
 
 Cool.  Ok lets break down this down a bit.
 

@@ -36,6 +36,9 @@ Express expects templates to be found in a folder called views.  So lets create 
 
 Once you’ve done that move the files `index.html` and `about.html` from `public` to `views/pages`, and rename them to `index.ejs` and `about.ejs`.
 
+![Moved files to views]({{ '/assets/steps/6/pages-move-to-views.png' | relative_url }}){:title="Moved files to views" class="img-responsive imgbox"}
+
+
 ## Adding routes that use templates
 
 Since we’ve moved `index.html` and `about.html` from our `public` folder to `views/pages` we have to add routes for them.  Add the following routes:
@@ -58,8 +61,13 @@ Notice that we used `response.render()` instead of `response.send()` this time? 
 
 If you save this and restart the server and go to <http://localhost:3000/> you should see your homepage as before:
 
-[INSERT SCREENSHOT]
+![Homepage]({{ '/assets/steps/6/homepage.png' | relative_url }}){:title="Homepage" class="img-responsive imgbox"}
 
-You will notice that the link to **About** in the menu doesn’t work because it points to `/about.html` instead of `/about`.  We’ll fix that soon.
+You will notice that the link to **About** in the menu doesn’t work because it points to `/about.html` instead of `/about`.  
+
+![Broken Links]({{ '/assets/steps/6/broken-links.png' | relative_url }}){:title="Homepage" class="img-responsive imgbox"}
+
+
+We’ll fix that soon.
 
 So now we are rendering those two pages as templates, but we aren’t really taking advantage of templates yet.  In the next step we’ll start to see some cool stuff we can do with them.
