@@ -38,7 +38,7 @@ Open up `index.html` in your browser and check the pages out.
 
 [INSERT SCREENSHOT]
 
-This is the basic site that we are going to recreate as a Node.js app.
+This is the website that we are going to recreate and enhance as a Node.js app.
 
 ## Setup our files
 
