@@ -20,7 +20,7 @@ First up lets create a new route:
 
 ```javascript
 server.get('/recipe/:id', function(request, response) {
-	response.send('recipe id: '+ request.params.id); 
+  response.send('recipe id: '+ request.params.id); 
 });
 ```
 

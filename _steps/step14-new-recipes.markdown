@@ -26,8 +26,8 @@ So let's create our `getNextId` function in `recipesDB.js`:
 ```javascript
 function getNextId(){
   var recipeWithBiggestId = db.get('recipes').maxBy(function(recipe){ 
-		return recipe.id; 
-	});
+    return recipe.id; 
+  });
   return recipeWithBiggestId.value().id+1;
 }
 ```
@@ -37,11 +37,11 @@ Now that we have that, let's create our function to add new recipes to `recipesD
 
 ```javascript
 function addRecipe(name, content){
-	var newRecipe = { 
-	  id: getNextId(), 
-	  name: name, 
-	  content: content 
-	};
+  var newRecipe = { 
+    id: getNextId(), 
+    name: name, 
+    content: content 
+  };
   db.get('recipes')
   .push(newRecipe)
   .write();
@@ -70,9 +70,9 @@ Add the route to `server.js`:
 ```javascript
 server.get('/admin/recipe/new', function(request, response){
   var newRecipe = {
-	name: '',
-	content: ''
-	};
+    name: '',
+    content: ''
+  };
   response.render('pages/admin/new', {recipe: newRecipe})
 });
 ```
