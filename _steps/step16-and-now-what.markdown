@@ -4,19 +4,29 @@ number: 16
 title: And now what?
 permalink: step16/
 end: true
-status: redo
 ---
 
-Congratulations you made it!  You know know the basics of Javascript!
+Congratulations you made it!  You have now built a web application with Node.js!
 
 ![Congratulations!](../assets/neo-kungfu.gif)
 
 
-But this is just the tip of the iceberg for JavaScript and web development.  There is a whole bunch of technologies and tutorials at your fingertips.  
+## So what could you do now?
 
-Here are some starting points about where you could go next.  
+This is just the tip of the iceberg for Node.js, JavaScript and web development.  A whole new world has been opened up here, and then is so much you could do now.
+
+It's prudent to point out that there are a couple of things that we didn't do in this workshop in order to keep it simple that you would in an actual app:
+
+1. Authentication.  If you deployed this app now on the internet, anyone would be able to just add, edit or delete recipes.  Normally you would require some kind of authentication and only allow specific people access to the admin features.
+2. Error checking.  We didn't check for any errors.  Normally you would verify things.  Like does this `recipe exist before we try to update it.  Don't assume that everything will go smoothly. 
+
+These are both topics you might want to pursue further.
+
+Here are some starting points about where you could go next to learn more:
 
 ## JavaScript Sources
+
+Here are some more 
 
 ### Beginner
 * [Mozilla Developer Network: Learning Area](https://developer.mozilla.org/en-US/docs/Learn/)
@@ -32,7 +42,6 @@ Here are some starting points about where you could go next.
 ### Advanced
 
  * [Wes Bos 30 Day Challenge](https://javascript30.com/)
-
 
 ## Javascript & Technology Podcasts
 
