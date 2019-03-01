@@ -1,4 +1,5 @@
 
+{% include muses-logo.svg %}
 
 Welcome to Javascript.
 

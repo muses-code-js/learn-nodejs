@@ -60,3 +60,32 @@ pre {
   box-shadow: black 0px 0px 10px;
   border-radius: 5px;
 }
+
+
+/***************************
+  LOGO
+***************************/
+svg {
+  height: 60%;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+svg.small {
+  height: 35%;
+  width: 35%;
+  margin-top: 5px;
+}
+
+.nav-logo {
+  width: 50px;
+  padding-bottom:6px;
+}
+
+.site-title {
+  letter-spacing: 2px;
+}
+.site-title span {
+  margin-left: 100px;
+  letter-spacing: 1.5px;
+}
