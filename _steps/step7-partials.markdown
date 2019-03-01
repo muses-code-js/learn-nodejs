@@ -3,7 +3,6 @@ layout: step
 number: 7
 title: Partials
 permalink: step7/
-status: done
 ---
 
 One of the drawbacks to HTML that you might have noticed is that there is no easy method to share content between pages.  In particular having common content like navigation means having to repeat that content in every page.  Which means when that content changes, you have to update it in every page.  Which is annoying, time consuming and easy to mess up.

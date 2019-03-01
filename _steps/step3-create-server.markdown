@@ -3,7 +3,6 @@ layout: step
 number: 3
 title: Create Server
 permalink: step3/
-status: redo
 ---
 
 Since we are going to be building a server, we should probably talk about what a server *is*.

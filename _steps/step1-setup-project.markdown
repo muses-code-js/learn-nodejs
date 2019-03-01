@@ -3,7 +3,6 @@ layout: step
 number: 1
 title: Project setup
 permalink: step1/
-status: update
 ---
 
 The first thing we do when starting a new Node.js project is create a `package.json` file.
