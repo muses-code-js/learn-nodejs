@@ -22,7 +22,7 @@ As before when we want to do a new thing with the database we should create a ne
 
 The recipe's `id` has to be unique number in the database.  So what we will do is create a function that will tell us what the next `id` to use is.  Then we will use that in `addRecipe`.
 
-So let's create our `getNextId` function in `recipedb.js`:
+So let's create our `getNextId` function in `recipesDB.js`:
 
 ```javascript
 function getNextId(){
@@ -34,7 +34,7 @@ function getNextId(){
 ```
 What this function does is ask the database what the recipe is with the largest `id` value, and returns that number plus `1`.
 
-Now that we have that, let's create our function to add new recipes to `recipesdb.js`:
+Now that we have that, let's create our function to add new recipes to `recipesDB.js`:
 
 ```javascript
 function addRecipe(name, content){
@@ -110,7 +110,7 @@ Now we just need to add the route which this form will submit to.
 First import our `addRecipe` database function at the top of `server.js`:
 
 ```javascript
-var addRecipe = require('./recipedb.js').addRecipe;
+var addRecipe = require('./recipesDB.js').addRecipe;
 ```
 
 Then add the following new route in `server.js`:

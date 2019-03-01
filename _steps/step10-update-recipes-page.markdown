@@ -10,7 +10,7 @@ Ok now that we have our database let's update our recipe page to actually displa
 
 ## Add getRecipe()
 
-Our `recipesdb.js` has a function for returning all the recipes in the database, lets add one which returns a single recipe with the specified `id`.  Add this code to `recipedb.js` after `getAllRecipes`:
+Our `recipesDB.js` has a function for returning all the recipes in the database, lets add one which returns a single recipe with the specified `id`.  Add this code to `recipesDB.js` after `getAllRecipes`:
 
 ```javascript
 function getRecipe(id){
@@ -37,7 +37,7 @@ Lets jump over to `server.js` now.
 First import our new database function using `require`.  Under the require statement for `getAllRecipes` add this one:
 
 ```javascript
-var getRecipe = require('./recipedb.js').getRecipe;
+var getRecipe = require('./recipesDB.js').getRecipe;
 ```
 
 Then update update our `/recipe/:id` route as follows:

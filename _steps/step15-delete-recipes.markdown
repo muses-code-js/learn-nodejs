@@ -18,7 +18,7 @@ So our steps will be:
 
 ## Add our `deleteRecipe` database function
 
-Of course we need to add a function to `recipedb.js` to delete a recipe:
+Of course we need to add a function to `recipesDB.js` to delete a recipe:
 
 ```javascript
 function deleteRecipe(id){
@@ -45,7 +45,7 @@ module.exports = {
 Import our `deleteRecipe` function into `server.js`:
 
 ```javascript
-var deleteRecipe = require('./recipedb.js').deleteRecipe;
+var deleteRecipe = require('./recipesDB.js').deleteRecipe;
 ```
 
 Then add this route to `server.js` for deleting a recipe:
