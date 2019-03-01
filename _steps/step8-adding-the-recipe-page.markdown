@@ -89,7 +89,7 @@ What that does is display the current value of the variable `recipeId`.  Where d
 
 Let's update our route from above so it looks like the following:
 
-```javacript
+```javascript
 server.get('/recipe/:id', function(request, response) {
   response.render('pages/recipe', { recipeId: request.params.id });
 });

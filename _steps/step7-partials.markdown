@@ -43,16 +43,18 @@ So now `views/partials/header.ejs` should look like:
 Now go to `views/pages/index.ejs` and `views/pages/about.ejs` and where the `<header>` is now, replace it with the following:
 
 ```html
-<% include “../partials/header” %>
+<% include "../partials/header" %>
 ```
 If you refresh the pages it should seem exactly the same.
 
 But here’s the thing.  Our links are still broken right?  Open up `header.ejs` and update the links as below:
 
+```html
 <nav>
   <a href="/">Home</a>
   <a href="/about">About</a>
 </nav>
+```
 
 Now check both the home & about pages in your browser.  The links in the header should be fixed in both pages.  So much more convenient that having to make those changes in both files.  Now imagine if you had dozens or hundreds of pages.  So much easier this way than managing each of them by hand.
 
