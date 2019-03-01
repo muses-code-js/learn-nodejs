@@ -3,7 +3,6 @@ layout: step
 number: 12
 title: Editing a Recipe
 permalink: step12/
-status: screenshot
 ---
 
 Ok we have our admin page, so lets create the pages and routes that will let us edit our recipes.

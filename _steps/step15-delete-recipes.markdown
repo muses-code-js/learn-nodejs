@@ -3,7 +3,6 @@ layout: step
 number: 15
 title: Delete Recipes
 permalink: step15/
-status: screenshot
 ---
 
 The final step.  Deleting recipes.

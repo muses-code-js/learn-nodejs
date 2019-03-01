@@ -3,7 +3,6 @@ layout: step
 number: 9
 title: Adding a Database
 permalink: step9/
-status: screenshot
 ---
 
 Most web applications store their content in a database of some kind. When you post an update on Facebook or Twitter, or add a review on Amazon, it goes into a database.  Then when someone views those pages, the web application is retrieving that content and rendering it in a template.

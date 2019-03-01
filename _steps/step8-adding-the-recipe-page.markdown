@@ -3,7 +3,6 @@ layout: step
 number: 8
 title: Adding the Recipe Page
 permalink: step8/
-status: screenshot
 ---
 
 Ok so we have seen how templates and partials can save us heaps of time and make maintenance easier.   The other thing that you can do is creating a template that gets used for multiple pages. This means that for all of our recipes we will only have a single template.  This will save us so much time in the long run.

@@ -3,7 +3,6 @@ layout: step
 number: 13
 title: Working with Markdown
 permalink: step13/
-status: screenshot
 ---
 
 So we have a problem with the displaying of the content of our recipes.  We are just displaying that content as raw text, not as HTML.  How do we change raw text like this into HTML?  

@@ -3,7 +3,6 @@ layout: step
 number: 10
 title: Adding the Recipe Page
 permalink: step10/
-status: screenshot
 ---
 
 Ok now that we have our database let's update our recipe page to actually display that data.
