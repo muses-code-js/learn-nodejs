@@ -113,7 +113,7 @@ First import our `addRecipe` database function at the top of `server.js`:
 var addRecipe = require('./recipesDB.js').addRecipe;
 ```
 
-Then add the following new route in `server.js`:
+Then add the following new route in `server.js` before the route for `/admin/recipe/:id`:
 
 ```javascript
 server.post('/admin/recipe/new', function(request, response){
@@ -125,6 +125,10 @@ server.post('/admin/recipe/new', function(request, response){
   response.redirect('/admin');
 });
 ```
+
+It is very important to add this new route before the one for `/admin/recipe/:id`.
+
+The order that routes are added to our server determines the order that they are checked in.  If you had these in the wrong order, the route for updating a recipe would be matched first and it would try (and fail) to update a recipe with the id of `'new'`.
 
 Ok.  Save those changes and restart your server.
 

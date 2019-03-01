@@ -112,7 +112,7 @@ Dealing with form data on the server is kind of awkward to be honest.  But lucki
 So lets install **formidable** by going to our terminal (remember to stop your server) and type the following command:
 
 ```
-npm install formidable —save
+npm install express-formidable —save
 ```
 
 Once it has finished installing, open up `server.js` and do the following:
@@ -126,7 +126,7 @@ var formidable = require("express-formidable");
 Tell your server to use it by adding the following line after the `server.use(staticAssets)` line:
 
 ```javascript
-server.use(formidable);
+server.use(formidable();
 ```
 
 Now that the **formidable** middleware has been added lets add our new route which will handle the POST request.
@@ -135,20 +135,28 @@ Now that the **formidable** middleware has been added lets add our new route whi
 
 Ok last thing, we need to add the route that will handle the form submission when we click save.  
 
+First import our `updateRecipe` function:
+
+```Javascript
+var updateRecipe = require('./recipesDB.js').updateRecipe;
+```
+
 Looking at our form, we have the method of `POST` and an action of `/admin/recipe/` plus the recipe id.  And, thanks to **formidable**, the information about our form fields is going to be in `request.fields`.
 
-So our route looks like this:
+So our route will like this:
 
 ```javascript
 server.post('/admin/recipe/:id', function(request, response){
   updateRecipe({
-    id: request.params.id,
+    id: parseInt(request.params.id),
     name: request.fields.name,
     content: request.fields.content
   });
   response.redirect('/admin');
 });
 ```
+
+Add that code to `server.js`.
 
 Notice how after we call `updateRecipe` we don’t render a template, we use `response.redirect` to send the browser back to the admin page at `/admin`.
 

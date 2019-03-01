@@ -30,7 +30,7 @@ So open up `server.js` and add our route like so:
 
 ```javascript
 server.get('/admin', function(request, response){
-  var recipes = recipesDB.getAllRecipes();
+  var recipes = getAllRecipes();
   response.render('pages/admin/index', {recipes: recipes});
 });
 ```

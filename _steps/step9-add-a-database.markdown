@@ -32,7 +32,7 @@ var FileSync = require('lowdb/adapters/FileSync');
 Now we tell it to use the file `recipesDB.json` to store our data:
 
 ```javascript
-var adapter = new FileSync('recipesDB.json);
+var adapter = new FileSync('recipesDB.json');
 var db = low(adapter);
 ```
 
@@ -80,7 +80,7 @@ Ok so now we have setup our database in `recipesDB.js`, we need to be able to ac
 Add the following line to `server.js` just after the lines with `require` that you already have:
 
 ```javascript
-var getAllRecipes = require('./recipesDB.js’).getAllRecipes;
+var getAllRecipes = require('./recipesDB.js').getAllRecipes;
 ```
 
 You can use `require()` on a file as well as a package.  What can be accessed when you require a file is defined by the `module.export` statement in that file.  Note also you have to specify the path to the file, which is why we have the `./recipesDB.js` instead of just `recipesDB.js`.  The `.` at the start of a path means "the folder that I am currently in" (which isn't just a Javascript thing BTW).

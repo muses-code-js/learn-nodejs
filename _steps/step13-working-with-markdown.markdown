@@ -38,7 +38,7 @@ server.get('/recipe/:id', function(request, response) {
     name: recipe.name,
     content: marked(recipe.content)
  };
-  response.render('pages/recipe', { recipe: recipe });
+  response.render('pages/recipe', { recipe: newRecipe });
 });
 ```
 
