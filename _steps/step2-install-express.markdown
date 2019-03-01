@@ -3,7 +3,7 @@ layout: step
 number: 2
 title: Install Express
 permalink: step2/
-status: draft
+status: done
 ---
 
 In this workshop we are building a web server application. Node.js provides all the functionality to do this, but at a very low level.  You would need to write a lot of code to connect all the different pieces together.  It's a lot of work and it's also work that you would have to do every time you wrote a web server application.  

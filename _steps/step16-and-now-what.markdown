@@ -4,7 +4,7 @@ number: 16
 title: And now what?
 permalink: step16/
 end: true
-status: rewrite
+status: redo
 ---
 
 Congratulations you made it!  You know know the basics of Javascript!

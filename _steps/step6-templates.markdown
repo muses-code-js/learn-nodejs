@@ -3,7 +3,7 @@ layout: step
 number: 6
 title: Templates
 permalink: step6/
-status: screenshot
+status: screenshots
 ---
 
 Ok, we’ve looked at routes and static assets, which leaves us one more key feature to discuss: templates.

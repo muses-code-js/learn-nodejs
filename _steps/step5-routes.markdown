@@ -3,7 +3,7 @@ layout: step
 number: 5
 title: Creating Routes
 permalink: step5/
-status: screenshot & review
+status: screenshots
 ---
 
 Ok as we said in the previous step, routes are the other way of defining how your server responds to requests.

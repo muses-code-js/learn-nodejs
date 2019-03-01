@@ -3,7 +3,7 @@ layout: step
 number: 4
 title: Static Assets
 permalink: step4/
-status: screenshot, review (change references to tiny-cakes.zip)
+status: screenshots
 references:
   - label: Guide to Express Middlware
     url: https://expressjs.com/en/guide/using-middleware.html

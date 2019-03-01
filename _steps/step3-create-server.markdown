@@ -3,7 +3,7 @@ layout: step
 number: 3
 title: Create Server
 permalink: step3/
-status: rewrite
+status: redo
 ---
 
 ```js

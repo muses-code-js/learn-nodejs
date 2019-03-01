@@ -3,7 +3,7 @@ layout: step
 number: 11
 title: Adding Admin features
 permalink: step11/
-status: write
+status: screenshot
 ---
 
 So far what we’ve built is the "read" part of the application.  Now we are going to build the "create", "update", and "delete" parts.
