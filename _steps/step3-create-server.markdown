@@ -95,7 +95,7 @@ In the terminal you will see it display the "Server has started listening" messa
 
 It will look a little like this:
 
-![Running node server.js in the terminal](../assets/step3-b.png){:title="Running node server.js in the terminal" class="img-responsive imgbox"}
+![Running node server.js in the terminal]({{ '/assets/steps/3/server-listening.png' | relative_url }}){:title="Running node server.js in the terminal" class="img-responsive imgbox"}
 
 If you see this, congratulations! :clap: :clap: You have built yourself a server and started it running!
 
