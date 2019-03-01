@@ -141,13 +141,11 @@ You'll see the new recipe page like this:
 Set the name to `Muffins`, and add the content from below:
 
 ```
-## Muffins
-
 This recipe makes 12 plain muffins.  
 
 Refer to directions at the bottom for how to modify the recipe for different types of muffins.
 
-### Ingredients:
+## Ingredients:
 
  * 2 cups white flour
  * 1 tablespoon baking powder
@@ -157,7 +155,7 @@ Refer to directions at the bottom for how to modify the recipe for different typ
  * 1 cup milk
  * 1/4 cup melted butter
 
-### Method:
+## Method:
 
 1. Preheat the oven to 375°F.
 2. Butter muffin pans.
@@ -166,24 +164,24 @@ Refer to directions at the bottom for how to modify the recipe for different typ
 5. Spoon into the muffin pans, filling each cup about two-thirds full.
 6. Bake for about 20 to 25 minutes each.
 
-### Variations:
+## Variations:
 
-#### Blueberry Muffins:
+### Blueberry Muffins:
  * Use 1/2 cup sugar.
  * Reserve 1/4 cup of the flour, sprinkle it over 1 cup blueberries, and stir them into the batter last.
 
-#### Pecan Muffins:
+### Pecan Muffins:
  * Use 1/4 cup sugar.
  * Add 1/2 cup chopped pecans to the batter.
  * After filling the cups, sprinkle with sugar, cinnamon, and more chopped nuts.
 
-#### Whole-Wheat Muffins:
+### Whole-Wheat Muffins:
  * Use 3/4 cup whole-wheat flour and 1 cup white flour.
 
-#### Date or Raisin Muffins:
+### Date or Raisin Muffins:
  * Add 1/2 cup chopped pitted dates or 1/3 cup raisins to the batter.
 
-#### Bacon Muffins:
+### Bacon Muffins:
  * Add 3 strips bacon, fried crisp and crumbled, to the batter.
 ```
 

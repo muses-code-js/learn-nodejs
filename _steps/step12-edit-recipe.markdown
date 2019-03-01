@@ -84,20 +84,20 @@ Create the partial at `views/partials/admin/recipe_form.ejs`:
 
 ```html
 <div>
-	Name: 
-	<input name="name" type="text" value="<%= recipe.name %>"/>
+  Name: 
+  <input name="name" type="text" value="<%= recipe.name %>"/>
 </div>
 <div>
-	Content: 
-	<textarea name="content" rows="20" cols="80"><%= recipe.content %></textarea>
+  Content: 
+  <textarea name="content" rows="20" cols="80"><%= recipe.content %></textarea>
 </div>
 <input type="submit" value="Save changes" />
 <a href="/admin/">Cancel</a>
 ```
 
-In the partial we have a two text boxes: an <input> for the name, and <textarea> for the content.  <input> is for a single line of text, and <textarea> is for text with multiple lines.  
+In the partial we have a two text boxes: an `<input>` for the name, and `<textarea>` for the content.  `<input`> is for a single line of text, and `<textarea>` is for text with multiple lines.  
 
-Then we have another <input> tag.  The big difference between these is the `type` attribute.  <input> serves a few different purposes in a form and the `type` attribute controls what each one does.  When `type` is set to `text` it’s a single line text box.  When `type` is `submit` it becomes a **submit button** which will trigger **form submission** when clicked.  And the last  item in the partial is just a link back to the admin page if you want to cancel your edit.
+Then we have another `<input>` tag.  The big difference between these is the `type` attribute.  `<input>` serves a few different purposes in a form and the `type` attribute controls what each one does.  When `type` is set to `text` it’s a single line text box.  When `type` is `submit` it becomes a **submit button** which will trigger **form submission** when clicked.  And the last  item in the partial is just a link back to the admin page if you want to cancel your edit.
 
 So... clicking the submit button will cause a **form submission**.  What does this mean?  
 
@@ -167,11 +167,9 @@ So lets update our recipe's content.
 Edit our recipe and add the following to the content of the recipe.   Don't worry about typing this out, just copy/paste it.
 
 ```
-## Traditional Cupcakes
-
 Traditional cupcakes are always a crowd-pleaser.
 
-### Ingredients:
+## Ingredients:
 
  * 2 cups self-raising flour, sifted
  * 3/4 cup CSR Caster Sugar
@@ -184,7 +182,7 @@ Traditional cupcakes are always a crowd-pleaser.
  * 1-1 1/2 tablespoons water
  * food colouring, optional
 
-### Method:
+## Method:
 
 1. Preheat oven to 200°C or 180°C fan-forced.
 2. Grease a 12 x 1/3-cup capacity muffin pan. Alternatively, line holes with paper cases.
