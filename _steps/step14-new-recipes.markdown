@@ -3,7 +3,7 @@ layout: step
 number: 14
 title: Adding a new recipe
 permalink: step14/
-status: draft
+status: screenshot
 ---
 
 So we can edit recipes now.  That's cool, but what about the page for adding new ones?
