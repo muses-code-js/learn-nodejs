@@ -24,11 +24,25 @@ We will be dealing with routes next, so lets do static assets first.
 
 Static assets are those files in your app which do not change, hence static.  In a simple website with no dynamic server-side behaviour all the files are static assets.  When a user requests a URL the server just responds by getting that file and sending it to the user.  When you have server-side behaviour that means that some URLs don't map directly to a specific file, and the server will be assembling a new page matching that specific request.  However you still usually have some files that just get served up as is, like CSS files  and images for example.  These files are our static assets.
 
-To use static assets in Express all we have to do is put our static assets in a  folder and tell Express to use it for static assets.  So let's do that with our TinyCakes website from the learn-HTML workshop.
+To use static assets in Express all we have to do is put our static assets in a  folder and tell Express to use it for static assets.  
+
+## Download the tiny-cakes files
+
+First, you need to download the Tiny Cakes site files: [tinycakes.zip]({{ '/assets/tiny-cakes.zip' | relative_url }}).
+
+Unzip this somewhere convenient for you and you will see a folder called `tiny-cakes` with some HTML files, some CSS and images.  
+
+[INSERT SCREENSHOT]
+
+Open up `index.html` in your browser and check the pages out.
+
+[INSERT SCREENSHOT]
+
+This is the basic site that we are going to recreate as a Node.js app.
 
 ## Setup our files
 
-If you haven't done the learn-HTML workshop or if you don't have the finished project anymore you can download [tiny-cakes-site.zip](tiny-cakes-site.zip).
+Now we are going to copy all the Tiny Cakes files into our project.
 
 1. Create a folder inside of our learn-nodejs folder called `public`.  
 2. Copy the your HTML, CSS, and image files from your TinyCakes site into `public`.  If you are using the downloaded ZIP, then extract those files from the ZIP file and copy them into `public`.
