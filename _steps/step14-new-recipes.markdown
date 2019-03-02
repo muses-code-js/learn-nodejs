@@ -25,8 +25,8 @@ So let's create our `getNextId` function in `recipesDB.js`:
 
 ```javascript
 function getNextId(){
-  var recipeWithBiggestId = db.get('recipes').maxBy(function(recipe){ 
-    return recipe.id; 
+  var recipeWithBiggestId = db.get('recipes').maxBy(function(recipe){
+    return recipe.id;
   });
   return recipeWithBiggestId.value().id+1;
 }
@@ -36,11 +36,11 @@ What this function does is ask the database what the recipe is with the largest 
 Now that we have that, let's create our function to add new recipes to `recipesDB.js`:
 
 ```javascript
-function addRecipe(name, content){
-  var newRecipe = { 
-    id: getNextId(), 
-    name: name, 
-    content: content 
+function addRecipe(recipe){
+  var newRecipe = {
+    id: getNextId(),
+    name: recipe.name,
+    content: recipe.content 
   };
   db.get('recipes')
   .push(newRecipe)
