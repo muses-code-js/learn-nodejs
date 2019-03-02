@@ -16,7 +16,7 @@ There are also many, many tools and packages for processing Markdown content.  T
 So first lets install the `marked` package using `npm` just like the previous packages we have installed:
 
 ```
-npm install marked —save
+npm install marked --save
 ```
 
 Then import `marked` into `server.js` at the top:

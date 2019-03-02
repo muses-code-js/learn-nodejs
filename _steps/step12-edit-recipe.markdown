@@ -111,7 +111,7 @@ Dealing with form data on the server is kind of awkward to be honest.  But lucki
 So lets install **formidable** by going to our terminal (remember to stop your server) and type the following command:
 
 ```
-npm install express-formidable —save
+npm install express-formidable --save
 ```
 
 Once it has finished installing, open up `server.js` and do the following:

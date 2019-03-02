@@ -16,7 +16,7 @@ So we aren’t going to delve into one of those.  What we are going to do is use
 First we need to install the database package that we are going to use.  Go to the terminal again, stop the server and install the package `lowdb` using `npm` like this:
 
 ```
-npm install lowdb —save
+npm install lowdb --save
 ```
 
 Once we have that installed, lets create a new file, `recipesDB.js`.  This is where we are going to put all the code which uses `lowdb`.
